@@ -1,0 +1,36 @@
+#root {
+    display: grid;
+    grid-template-columns: 80vw 20vw;
+}
+
+.mainCanvas {
+    width: 80vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.mainMenu {
+    flex-direction: row;
+    position: sticky;
+    padding: 1rem;
+}
+
+.mainMenu h1 {
+    text-align: center;
+}
+
+.optionContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.Ball {
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
