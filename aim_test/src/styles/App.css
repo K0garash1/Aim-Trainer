@@ -1,27 +1,25 @@
 #root {
     display: grid;
     grid-template-columns: 80vw 20vw;
-    background-color: #111;
 }
 
 .mainCanvas {
     width: 80vw;
     height: 100vh;
-    background-color: #222;
     box-sizing: border-box;
 }
 
-.mainMenu{
+.mainMenu {
     flex-direction: row;
     position: sticky;
     padding: 1rem;
 }
 
-.mainMenu h1{
+.mainMenu h1 {
     text-align: center;
 }
 
-.optionContainer{
+.optionContainer {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
